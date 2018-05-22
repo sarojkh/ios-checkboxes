@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features,build}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4.0"
+  s.add_dependency "rails", "~> 5.0"
   s.add_dependency "sass-rails"
 
   s.add_development_dependency "rspec-rails"
